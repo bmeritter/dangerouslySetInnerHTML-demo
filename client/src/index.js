@@ -9,7 +9,7 @@ function html() {
 function mark() {
   return {__html:marked('# 一级标题')};
 }
-function flash() {
+function viedo() {
   return {__html:"<embed src='http://player.youku.com/player.php/sid/XMjUzNDIyNjM3Ng==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>"};
 }
 
@@ -17,7 +17,7 @@ ReactDom.render(
   <div>
     <div dangerouslySetInnerHTML={html()}></div>
     <div dangerouslySetInnerHTML={mark()}></div>
-    <div dangerouslySetInnerHTML={flash()}></div>
+    <div dangerouslySetInnerHTML={viedo()}></div>
   </div>,
     document.getElementById('app')
 );
