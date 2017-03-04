@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
+function html() {
+  return {__html:'<span>hello world</span>'};
+}
+
 ReactDom.render(
-    <h1>Hello,World!</h1>,
+  <div dangerouslySetInnerHTML={html()}></div>,
     document.getElementById('app')
 );
