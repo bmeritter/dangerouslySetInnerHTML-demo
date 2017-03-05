@@ -1,11 +1,3 @@
 # dangerouslySetInnerHTML-demo
 
-1. `git clone git@github.com:bmeritter/dangerouslySetInnerHTML-demo.git`
-
-2. `cd dangerouslySetInnerHTML-demo`
-
-3. `npm run webpack`
-
-4. `npm start`
-
-5. 访问：`localhost:3000`
+<iframe height=498 width=510 src='http://player.youku.com/embed/XMjQ4MTc0ODMyOA==' frameborder=0 'allowfullscreen'></iframe>
