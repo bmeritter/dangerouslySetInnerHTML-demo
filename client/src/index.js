@@ -7,7 +7,7 @@ function html() {
 }
 
 function mark() {
-  return {__html:marked('# 一级标题')};
+  return {__html:marked("# 三世三世 <embed src='http://player.youku.com/player.php/sid/XMjUzNDIyNjM3Ng==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>")};
 }
 function viedo() {
   return {__html:"<embed src='http://player.youku.com/player.php/sid/XMjUzNDIyNjM3Ng==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>"};
