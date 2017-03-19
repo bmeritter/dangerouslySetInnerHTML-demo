@@ -1,7 +1,8 @@
 # dangerouslySetInnerHTML-demo
 
-`npm run webpack`
+运行步骤
+1. `npm run webpack`
 
-`npm start`
+2. `npm start`
 
-`localhost:3000`
+3. `localhost:3000`
